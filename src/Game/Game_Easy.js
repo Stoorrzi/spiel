@@ -15,6 +15,15 @@ export default function Game_Easy() {
     [41, 51, 105, 15],
     [1, 1, 1, 1],
   ];
+  const correct = [1]
+
+  function checkAnswer(x) {
+    if (x === correct[0]) {
+      alert("richtig")
+    } else {
+      alert("Antwort falsch")
+    }
+  }
 
   if (prolog) {
     return (
@@ -76,10 +85,10 @@ export default function Game_Easy() {
       <div className="D15">
         <p1 className="H12">{fragen_2[0]}</p1>
         <div className="D16">
-          <button className="B12">{antworten[0][0]}</button>
-          <button className="B12">{antworten[0][1]}</button>
-          <button className="B12">{antworten[0][2]}</button>
-          <button className="B12">{antworten[0][3]}</button>
+          <button className="B12" onClick={() => {checkAnswer(1)}}>{antworten[0][0]}</button>
+          <button className="B12" onClick={() => {checkAnswer(2)}}>{antworten[0][1]}</button>
+          <button className="B12" onClick={() => {checkAnswer(3)}}>{antworten[0][2]}</button>
+          <button className="B12" onClick={() => {checkAnswer(4)}}>{antworten[0][3]}</button>
         </div>
         <button
           onClick={() => {
