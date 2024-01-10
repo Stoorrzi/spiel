@@ -10,10 +10,9 @@ export default function Game_Easy() {
   const fragen = [
     "Wir zerstören die Erde in 001001101 Tagen. Wenn ihr nicht in 110011 Tagen 0011011 Tonnen Gold zum Planeten Slawp sendet. LG",
   ];
-  const fragen_2 = ["Was ist 110011 als Dezimalzahl?"];
+  const fragen_2 = ["Was ist 110011 als Dezimalzahl?", 1];
   const antworten = [
-    [41, 51, 105, 15],
-    [1, 1, 1, 1],
+    [41, 51, 105, 15], ["1", "Hallo"],
   ];
   const correct = [1]
 

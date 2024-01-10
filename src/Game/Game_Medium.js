@@ -2,8 +2,8 @@ import { useState } from "react";
 import "./Game_Easy.css";
 
 export default function Game_Medium() {
-  const [frage, setFrage] = useState(false);
-  const [antwort, setAntwort] = useState(true);
+  const [frage, setFrage] = useState(true);
+  const [antwort, setAntwort] = useState(false);
   const [frageFeld, setFrageFeld] = useState(false);
 
   const [textInput, setTextInput] = useState("");
