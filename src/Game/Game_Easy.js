@@ -72,13 +72,13 @@ export default function Game_Easy() {
     {
       title: "Nachricht an die Erdlinge",
       story: "agesdgrf",
-      story2: "hwdtzrtsw",
-      story3: "ycgbhsadh"
+      //story2: "hwdtzrtsw",
+      //story3: "ycgbhsadh"
     },
     {
       title: "Nachricht an die Erdlinge2",
       story: "agesdgrf2",
-      story2: "hwdtzrtsw",
+      //story2: "hwdtzrtsw",
     },
     {
       title: "Nachricht an die Erdlinge3",
