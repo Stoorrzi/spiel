@@ -6,7 +6,15 @@ import FragenEasyJson from "./FragenEasy.json";
 import StoryTextJson from "./Story.json";
 
 export default function Game({ prolog, setProlog }) {
-  const storyList = ["Story", "Story", "Story", "Frage Easy", "Story", "Frage Easy"];
+  const storyList = [
+    "Story", "Story", "Story", "Story", 
+    "Frage Easy", 
+    "Story", "Story", "Story", 
+    "Frage Easy",
+    "Story", "Story", "Story", "Story", "Story",
+    "Frage Easy",
+    "Story"
+  ];
 
   const [story, setStory] = useState(false);
   const [storyText, setStoryText] = useState();
