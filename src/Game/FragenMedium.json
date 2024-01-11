@@ -1,0 +1,8 @@
+[{
+    "title": "Bearbeite den Code",
+    "Aufgabe": "Dein Kurs ist abgewichen",
+    "top": ["Main", "<br />", "public staic void"],
+    "bottom": ["Main", "<br />", "public staic void"],
+    "correct": "intx=80;\ninty=80;",
+    "img": "img"
+}]

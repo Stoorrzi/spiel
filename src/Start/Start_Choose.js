@@ -5,7 +5,7 @@ export default function Start_Choose() {
   const navigate = useNavigate();
 
   const newGame = () => {
-    navigate("/game/0");
+    navigate("/game");
   };
   const loadGame = () => {
     navigate("/game/1");

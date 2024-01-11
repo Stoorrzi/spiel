@@ -36,7 +36,7 @@
 
 .P11 {
     color: white;
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     backdrop-filter: blur(10px);
     font-weight: 500;
 }
@@ -53,25 +53,11 @@
     font-weight: 700;
     color: #000;
 }
-
-.C11 {
+.B111 {
     position: absolute;
     left: 4rem;
     bottom: 1.5rem;
     font-size: 2.5rem;
-    padding: 1rem 4rem 1rem 4rem;
-    background-color: #D16AE1;
-    border: none;
-    border-radius: 3rem;
-    font-weight: 700;
-    color: #000;
-}
-
-.C12 {
-    position: absolute;
-    left: 1rem;
-    bottom: 1.5rem;
-    font-size: 1.5rem;
     padding: 1rem 4rem 1rem 4rem;
     background-color: #D16AE1;
     border: none;
@@ -130,8 +116,8 @@
 .D16 {
     width: 80%;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 30% 30%;
     row-gap: 50px;
     column-gap: 50px;
     margin-top: 5rem;
@@ -154,7 +140,6 @@
     font-size: 4rem;
     font-weight: 500;
     text-decoration: underline;
-    
 }
 
 .IMG4 {
@@ -260,31 +245,3 @@
     margin-left: 1rem;
     font-size: 2.5rem;
 }
-
-.container {
-    display: flex;
-    
-}
-  
-.leftPane {
-    flex: 1; 
-    padding: 20px; 
-}
-  
-.rightPane {
-    flex: 1; 
-    padding: 20px; 
-}
-
-.B13 {
-    padding: 20% ;
-    font-size: 5rem;
-    border-radius: 20px;
-    border: none;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-  }
-  
