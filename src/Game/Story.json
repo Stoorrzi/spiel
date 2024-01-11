@@ -1,16 +1,16 @@
 [
 {
-    "text": "Du hast die Nachricht entschlüsseln können…",
-    "img": "/images/easy.svg"
-
-},
-{
-    "text": "Es ist eine Hilferuf der Bewohner des Slawpplaneten…",
-    "img": "/images/easy.svg"
+    "text": "Du hast die Nachricht entschlüsseln können! Es ist eine Hilferuf der Bewohner des Slawpplaneten…",
+    "img": ""
 
 },
 {
     "text": "Um mehr über die Lage herauszufinden, musst du eine Spionagedrohne zum Planeten schicken…",
+    "img": "/images/Drohne.svg"
+
+},
+{
+    "text": "Um die Drohne erfolgreich zum Planeten zu leiten musst du die Koordinaten richtig eingeben.  Allerdings kann die Drohne nur Binär-Zahlen lesen. Übersetze die Koordinaten in Binär-Zahlen, um die Drohne zu navigieren.",
     "img": "/images/Drohne.svg"
 
 },
@@ -19,30 +19,16 @@
 
 
 {
-    "text": "Die Spionagedrohne ist erfolgreich zurückgekehrt…",
-    "img": "/images/easy.svg"
+    "text": "Die Spionagedrohne ist erfolgreich zurückgekehrt. Die Bewohner des Slawpplaneten werden vom bösen Herrscher Gargor unterdrückt. Um die Bewohner zu befreien musst du Gargor festnehmen.",
+    "img": ""
 
 },
 {
-    "text": "Die Bewohner des Slawpplaneten werden vom bösen Herrscher Gargor unterdrückt…",
+    "text": "Gargor lebt in einer Burg auf dem Slawpplaneten, die von seinen besten Soldaten bewacht wird. Um zum Slawpplaneten zu gelangen und Gargor festzunehmen, musst du eine Rakete bauen",
     "img": "/images/easy.svg"
 
 },
-{
-    "text": "Um die Bewohner zu befreien musst du Gargor festnehmen",
-    "img": "/images/easy.svg"
 
-},
-{
-    "text": "Gargor lebt in einer Burg auf dem Slawpplaneten, die von seinen besten Soldaten bewacht wird.",
-    "img": "/images/easy.svg"
-
-},
-{
-    "text": "Um zum Slawpplaneten zu gelangen musst du Deine Rakete bauen",
-    "img": "/images/easy.svg"
-
-},
 
 
 
