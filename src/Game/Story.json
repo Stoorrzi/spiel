@@ -22,6 +22,55 @@
 
 
 {
+    "text": "Du hast die Nachricht entschlüsseln können…",
+    "img": "/images/easy.svg"
+
+},
+{
+    "text": "Es ist eine Hilferuf der Bewohner des Slawpplaneten…",
+    "img": "/images/easy.svg"
+
+},
+{
+    "text": "Um mehr über die Lage herauszufinden, musst du eine Spionagedrohne zum Planeten schicken…",
+    "img": "/images/easy.svg"
+
+},
+
+
+
+
+{
+    "text": "Die Spionagedrohne ist erfolgreich zurückgekehrt…",
+    "img": "/images/easy.svg"
+
+},
+{
+    "text": "Die Bewohner des Slawpplaneten werden vom bösen Herrscher Gargor unterdrückt…",
+    "img": "/images/easy.svg"
+
+},
+{
+    "text": "Um die Bewohner zu befreien musst du Gargor festnehmen",
+    "img": "/images/easy.svg"
+
+},
+{
+    "text": "Gargor lebt in einer Burg auf dem Slawpplaneten, die von seinen besten Soldaten bewacht wird.",
+    "img": "/images/easy.svg"
+
+},
+{
+    "text": "Um zum Slawpplaneten zu gelangen musst du Deine Rakete bauen",
+    "img": "/images/easy.svg"
+
+},
+
+
+
+
+
+{
     "text": "Ich bin ein weiterer Text.",
     "img": "/images/easy.svg"
 
