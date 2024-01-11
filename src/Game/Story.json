@@ -1,7 +1,7 @@
 [
 {
     "text": "Du hast die Nachricht entschlüsseln können! Es ist eine Hilferuf der Bewohner des Slawpplaneten…",
-    "img": ""
+    "img": "/images/Computer.svg"
 
 },
 {
@@ -20,12 +20,12 @@
 
 {
     "text": "Die Spionagedrohne ist erfolgreich zurückgekehrt. Die Bewohner des Slawpplaneten werden vom bösen Herrscher Gargor unterdrückt. Um die Bewohner zu befreien musst du Gargor festnehmen.",
-    "img": ""
+    "img": "/images/Felder.svg"
 
 },
 {
     "text": "Gargor lebt in einer Burg auf dem Slawpplaneten, die von seinen besten Soldaten bewacht wird. Um zum Slawpplaneten zu gelangen und Gargor festzunehmen, musst du eine Rakete bauen",
-    "img": "/images/easy.svg"
+    "img": "/images/Gargor.svg"
 
 },
 
@@ -35,25 +35,11 @@
 
 
 {
-    "text": "Du hast Level 1 bestanden",
-    "img": "/images/easy.svg"
-
-},
-
-
-{
-    "text": "Ich bin ein weiterer Text.",
-    "img": "/images/easy.svg"
-
-},
-{
-    "text": "Ich bin ein weiterer Text.",
-    "img": "/images/easy.svg"
-
-},
-{
-    "text": "Ich bin ein weiterer Text.",
-    "img": "/images/easy.svg"
+    "text": "Du hast es Geschafft und die Rakete ist einsatzbereit! Begebe dich jetzt auf die Mission Gargor zu fangen und die Bewohner des Slwapplaneten zu befreien",
+    "img": "/images/Raumschiff.svg"
 
 }
+
+
+
 ]
