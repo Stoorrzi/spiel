@@ -101,10 +101,10 @@
 }
 
 .P12 {
-    font-size: 2.3rem;
+    font-size: 40px;
     width: 80%;
     position: absolute;
-    top: 0%;
+    top: -8px;
     left: 10%;
 }
 
