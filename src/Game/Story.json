@@ -35,11 +35,44 @@
 
 
 {
-    "text": "Du hast es Geschafft und die Rakete ist einsatzbereit! Begebe dich jetzt auf die Mission Gargor zu fangen und die Bewohner des Slwapplaneten zu befreien",
+    "text": "Du befindest dich auf dem Weg zum Slawpplaneten, um die Bewohner von ihrem bösen Herrscher Gargor zu befreien.",
+    "img": "/images/Raumschiff.svg"
+
+},
+{
+    "text": "Auf der Reise gerätst du plötzlich in einen Meteoridenschauer. Durch dein Talent im Fliegen schaffst du es den meisten Meteoriden auszuweichen. Einer trifft allerdings das Navigationszentrum der Rakete. Um den Kurs wieder zu finden musst du die Koordinaten des Slawpplaneten eingeben.",
+    "img": "/images/Raumschiff.svg"
+
+},
+
+
+
+{
+    "text": "Du hast es geschafft! Du bist beim Slawpplaneten angekommen.",
+    "img": "/images/Raumschiff.svg"
+
+},
+{
+    "text": "Du schaffst es ungemerkt zu landen. Um zu Gargor zu kommen musst du jedoch an unzähligen Wachen vorbei. Da du im Kampf in Unterzahl währst versuchst du die Wachen abzulenken, um ungemerkt in Gargor’s Thronsaal zu kommen",
+    "img": "/images/Raumschiff.svg"
+
+},
+
+
+
+{
+    "text": "Es hat funktioniert. Die Wachen maschieren alle in die falsche Richtung und verlassen ihre Positionen. Dadurch gelangst du unbemerkt in den Thronsaal",
+    "img": "/images/Raumschiff.svg"
+
+},
+{
+    "text": "In dem Moment, indem du den Thronsaal betritst entwischt dir Gargor über eine versteckte Hintertür. Durch Drohnenaufnahmen findest du heraus, dass sich Gargor in den hoch-giftigen Feldern der Slawppflanzen aufhält. Da du durch das Gift die Felder nicht durchqueeren kannst musst du einen Roboter programmieren, der Gargor fängt.",
+    "img": "/images/Raumschiff.svg"
+
+},
+{
+    "text": "Herzlichen Glückwunsch Du hast Gargor gefangen genommen und die Bewohner des Slawpplaneten befreit Mit dem Gefangenen kehrst du als Sieger auf die Erde zurück",
     "img": "/images/Raumschiff.svg"
 
 }
-
-
-
 ]

@@ -1,8 +1,26 @@
-[{
-    "title": "Bearbeite den Code",
-    "Aufgabe": "Dein Kurs ist abgewichen",
-    "top": ["Main", "<br />", "public staic void"],
-    "bottom": ["Main", "<br />", "public staic void"],
-    "correct": "intx=80;\ninty=80;",
-    "img": "img"
-}]
+[
+    {
+        "title": "Definiere die Variablen",
+        "Aufgabe": "",
+        "top": ["Main", "<br />", "public staic void"],
+        "bottom": ["Main", "<br />", "public staic void"],
+        "correct": "intx=80;\ninty=80;",
+        "img": "img"
+    },
+    {
+        "title": "Gebe den gewünschten Code aus",
+        "Aufgabe": "Quiz: Du willst die Wachen mit der Hilfe eines Roboters ablenken, der Ausgibt “Achtung eindringlinge in dieser Richtung”. ",
+        "top": ["Main", "<br />", "public staic void"],
+        "bottom": ["Main", "<br />", "public staic void"],
+        "correct": "intx=80;\ninty=80;",
+        "img": "img"
+    },
+    {
+        "title": "Bearbeite den Code",
+        "Aufgabe": "Programmiere einen Roboter mit den Methoden geheVorwärts(Anzahl Felder), dreheLinks(Grad), drehe rechtsGrad()",
+        "top": ["Main", "<br />", "public staic void"],
+        "bottom": ["Main", "<br />", "public staic void"],
+        "correct": "intx=80;\ninty=80;",
+        "img": "img"
+    }
+]
