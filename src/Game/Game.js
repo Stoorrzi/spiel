@@ -7,7 +7,6 @@ import StoryTextJson from "./Story.json";
 
 export default function Game({ prolog, setProlog }) {
   const storyList = [
-    "Story", "Story", "Story", "Story", 
     "Frage Easy", 
     "Story", "Story", "Story", 
     "Frage Easy",

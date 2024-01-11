@@ -1,19 +1,5 @@
  [
     {
-      "title": "Nachricht an die Erdlinge",
-      "fragen": ["Wir zerstören die Erde in 001001101 Tagen. Wenn ihr nicht in 110011 Tagen 0011011 Tonnen Gold zum Planeten Slawp sendet. LG"],
-      "antworten": [[41, 51, 105, 15]],
-      "correct": 1,
-      "img": "/images/prolog.svg"
-    },
-    {
-      "title": "Was heißt dieser Binärcode übersetzt?",
-      "fragen": ["01001001 01101110 00100000 01100100 01100101 01110010 00100000 01101000 01110101 01100101 01101100 01101001 01100111 01100101 01101110"],
-      "antworten": [["in der huegeligen", "in der Landschaft", "in der Nebelwald"]],
-      "correct": 1,
-      "img": "/images/prolog.svg"
-    },
-    {
       "title": "Welches Wort ergibt sich aus den Anfangsbuchstzaben der rot geschriebenen Wörtern",
       "fragen": ["In(0,0,0) der(0,0,255) hügeligen(255,0,0), idyllischen(255,0,0) Ferne(0,0,255) weit(0,0,0) weg(0,255,0) von(0,0,255) der(0,255,255) Erde(255,0,0) lebten(0,0,0) friedliche(0,255,0) Individuen(0,255,0), die(0,255,255) sich(0,0,255) liebevoll(0,255,0) um(0,255,255) ihre(0,255,0) Familie(0,0,255) und(0,255,0) ihre(0,255,0) Umwelt(0,0,255) kümmern(0,255,255), während(0,255,0) ein(0,0,255) friedlicher(255,0,0) König(0,255,255) das(0,255,0) Land(255,0,0) regiert(0,0,0) und(0,0,0) immer(0,0,0) einfallsreiche(0,0,0) Ideen(255,0,0) hat(255,0,0)."],
       "antworten": [["iwlruie", "dfvsfue", "wfiliuiwd", "eflih"]],
@@ -21,8 +7,8 @@
       "img": "/images/prolog.svg"
     },
     {
-      "title": " Du möchtest dass die Drohne um 90 Grad nach rechts fliegt. Was ist der passende Binärcode dafür?",
-      "fragen": [" Du möchtest dass die Drohne um 90 Grad nach rechts fliegt. Was ist der passende Binärcode dafür?"],
+      "title": "Übersetze diesen Binärcode",
+      "fragen": ["Die Koordinaten des Slawpplaneten sind X: 112 Y: 86 Z: 63.Was sind die richtigen Koordinaten in Binär?"],
       "antworten": [["0001110", "1100110", "1011010", "1001101"]],
       "correct": 3,
       "img": "/images/prolog.svg"

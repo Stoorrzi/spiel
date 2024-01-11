@@ -1,26 +1,4 @@
-[{
-    "text": "Hallo Agent, es gibt Neuigkeiten…",
-    "img": "/images/easy.svg"
- 
-}, 
-{
-    "text": "wir haben eine Nachricht vom Slawpplaneten erhalten…",
-    "img": "/images/easy.svg"
-
-},
-{
-    "text": "Allerdings ist sie verschlüsselt…",
-    "img": "/images/easy.svg"
-
-},
-{
-    "text": "Wir brauchen Deine Hilfe um die Nachricht zu entschlüsseln",
-    "img": "/images/easy.svg"
-
-},
-
-
-
+[
 {
     "text": "Du hast die Nachricht entschlüsseln können…",
     "img": "/images/easy.svg"
@@ -33,7 +11,7 @@
 },
 {
     "text": "Um mehr über die Lage herauszufinden, musst du eine Spionagedrohne zum Planeten schicken…",
-    "img": "/images/easy.svg"
+    "img": "/images/Drohne.svg"
 
 },
 
@@ -71,10 +49,12 @@
 
 
 {
-    "text": "Ich bin ein weiterer Text.",
+    "text": "Du hast Level 1 bestanden",
     "img": "/images/easy.svg"
 
 },
+
+
 {
     "text": "Ich bin ein weiterer Text.",
     "img": "/images/easy.svg"
