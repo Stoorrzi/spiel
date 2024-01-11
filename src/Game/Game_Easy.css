@@ -84,13 +84,16 @@
     display: flex;
     flex-direction: column;
     max-width: 65%;
-    height: 65%;
+    height: 1%;
+    width: 50%;
     background-color: rgb(66, 66, 66, .75);
     border-radius: 20px;
-    padding: 4rem;
+    padding: 3.5rem;
     color: #fff;
     backdrop-filter: blur(10px);
     align-items: center;
+    margin-top: 775px;
+    position: relative;
 }
 
 .H12 {
@@ -98,8 +101,13 @@
 }
 
 .P12 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     width: 80%;
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    
+   
 }
 
 .D15 {

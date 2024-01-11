@@ -1,8 +1,42 @@
 [{
-    "text": "Hallo ich bin der Text",
+    "text": "Hallo Agent, es gibt Neuigkeiten…",
     "img": "/images/easy.svg"
  
-}, {
+}, 
+{
+    "text": "wir haben eine Nachricht vom Slawpplaneten erhalten…",
+    "img": "/images/easy.svg"
+
+},
+{
+    "text": "Allerdings ist sie verschlüsselt…",
+    "img": "/images/easy.svg"
+
+},
+{
+    "text": "Wir brauchen Deine Hilfe um die Nachricht zu entschlüsseln",
+    "img": "/images/easy.svg"
+
+},
+
+
+
+{
+    "text": "Ich bin ein weiterer Text.",
+    "img": "/images/easy.svg"
+
+},
+{
+    "text": "Ich bin ein weiterer Text.",
+    "img": "/images/easy.svg"
+
+},
+{
+    "text": "Ich bin ein weiterer Text.",
+    "img": "/images/easy.svg"
+
+},
+{
     "text": "Ich bin ein weiterer Text.",
     "img": "/images/easy.svg"
 
