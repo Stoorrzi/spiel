@@ -53,13 +53,14 @@ export default function Game_Easy({
   return (
     <div className="D15">
       <p1 className="H12">{frageEasy}</p1>
-      <p>{aufgabeEasy}</p>
+      <p style={{ marginTop: '3rem', marginLeft: '4rem', marginRight: '4rem',}}>{aufgabeEasy}</p>
       <div className="D16">
         <button
           className="B12"
           onClick={() => {
             checkAnswer(1);
           }}
+          style={{ fontSize: `calc(60px - ${antwortEasy.length * 1.5}px)` }}
         >
           {antwortEasy[0]}
         </button>
@@ -68,6 +69,7 @@ export default function Game_Easy({
           onClick={() => {
             checkAnswer(2);
           }}
+          style={{ fontSize: `calc(60px - ${antwortEasy.length * 1.5}px)` }}
         >
           {antwortEasy[1]}
         </button>
@@ -76,6 +78,7 @@ export default function Game_Easy({
           onClick={() => {
             checkAnswer(3);
           }}
+          style={{ fontSize: `calc(60px - ${antwortEasy.length * 1.5}px)` }}
         >
           {antwortEasy[2]}
         </button>
@@ -84,6 +87,7 @@ export default function Game_Easy({
           onClick={() => {
             checkAnswer(4);
           }}
+          style={{ fontSize: `calc(60px - ${antwortEasy.length * 1.5}px)` }}
         >
           {antwortEasy[2]}
         </button>
