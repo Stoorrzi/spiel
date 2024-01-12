@@ -11,6 +11,8 @@ export default function Game_Medium({
   medium,
   weiter,
   back,
+  hilfe,
+  hilfeIMG
 }) {
   const [frageFeld, setFrageFeld] = useState(false);
   const [alertBox, setAlertBox] = useState(false);
@@ -39,10 +41,11 @@ export default function Game_Medium({
         />
         <div className="D17">
           <div className="D18">
-            <p className="P13">Hilfe</p>
+            <p className="P13">Information</p>
           </div>
           <div className="D19">
-            <p className="P14">Hier kommt die Hilfe</p>
+            <img className="IMG7" src={hilfeIMG} alt="HelpIMG" />
+            <p className="P14">{hilfe}</p>
           </div>
         </div>
         <button
@@ -111,9 +114,9 @@ export default function Game_Medium({
         onClick={() => {
           setFrageFeld(true);
         }}
-        style={{display: "none"}}
+        className="IMG4"
       >
-        <img className="IMG4" src={"/images/frage.svg"} alt="Fragezeichen" />
+        <img className="IMG41" src={"/images/frage.svg"} alt="Fragezeichen" />
       </button>
       {alertBox ? (
         <>

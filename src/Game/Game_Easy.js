@@ -11,17 +11,18 @@ export default function Game_Easy({
   easy,
   weiter,
   back,
+  hilfe,
+  hilfeIMG,
 }) {
   const [frageFeld, setFrageFeld] = useState(false);
   const [alertBox, setAlertBox] = useState(false);
   const [alertBoxFalsch, setAlertBoxFalsch] = useState(false);
 
-
   function checkAnswer(x) {
     if (x === richtigeAntwort) {
-      setAlertBox(true)
+      setAlertBox(true);
     } else {
-      setAlertBoxFalsch(true)
+      setAlertBoxFalsch(true);
     }
   }
 
@@ -35,10 +36,11 @@ export default function Game_Easy({
         />
         <div className="D17">
           <div className="D18">
-            <p className="P13">Hilfe</p>
+            <p className="P13">Information</p>
           </div>
           <div className="D19">
-            <p className="P14">Hier kommt die Hilfe</p>
+            <img className="IMG7" src={hilfeIMG} alt="HelpIMG" />
+            <p className="P14">{hilfe}</p>
           </div>
         </div>
         <button
@@ -99,9 +101,9 @@ export default function Game_Easy({
         onClick={() => {
           setFrageFeld(true);
         }}
-        style={{display: "none"}}
+        className="IMG4"
       >
-        <img className="IMG4" src={"/images/frage.svg"} alt="Fragezeichen" />
+        <img className="IMG41" src={"/images/frage.svg"} alt="Fragezeichen" />
       </button>
       <button
         className="B111"
@@ -122,7 +124,7 @@ export default function Game_Easy({
                 className="AB1"
                 onClick={() => {
                   weiter();
-                  setAlertBox(false)
+                  setAlertBox(false);
                 }}
               >
                 Weiter
@@ -137,13 +139,11 @@ export default function Game_Easy({
         <>
           <div className="AD1">
             <div className="AD21">
-              <p className="AP1">
-                Deine Antwort ist leider Falsch!
-              </p>
+              <p className="AP1">Deine Antwort ist leider Falsch!</p>
               <button
                 className="AB1"
                 onClick={() => {
-                  setAlertBoxFalsch(false)
+                  setAlertBoxFalsch(false);
                 }}
               >
                 OK

@@ -183,6 +183,11 @@
     position: absolute;
     top: 1rem;
     right: 1rem;
+    background-color: transparent;
+    border: none;
+}
+
+.IMG41 {
     width: 3rem;
 }
 
@@ -202,8 +207,8 @@
     margin-top: 3rem;
     margin-bottom: 3rem;
    background-color: #fff;
-   padding: 0rem 10rem 0rem 10rem;
-   border-radius: 50px;
+   padding: 0rem 5rem 0rem 5rem;
+   border-radius: 30px;
 }
 
 .IMG5 {
@@ -223,24 +228,32 @@
     backdrop-filter: blur(5px);
     border-radius: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+
+    padding: 20px;
+}
+
+.IMG7 {
+    max-width: 30rem;
 }
 
 .IMG6 {
     position: absolute;
     top: 1rem;
     right: 1rem;
+    width: 3rem;
 }
 
 .P13 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
 .P14 {
     color: #fff;
-    width: 90%;
-    font-size: 1.5rem;
+    width: 50%;
+    font-size: 1.2rem;
+    white-space: pre-line;
 }
 
 .D23 {

@@ -46,6 +46,9 @@ export default function Game({ prolog, setProlog }) {
   const [mediumIndex, setMediumIndex] = useState(0);
   const [mediumIMG, setMediumIMG] = useState();
 
+  const [hilfe, setHilfe] = useState()
+  const [hilfeIMG, setHilfeIMG] = useState()
+
   function Render() {
     console.log(storyList[storyListIndex]);
     if (storyList[storyListIndex] === "Story") {
@@ -63,6 +66,8 @@ export default function Game({ prolog, setProlog }) {
       setAntwortEasy(FragenEasyJson[easyIndex].antworten);
       setRichtigeAntwort(FragenEasyJson[easyIndex].correct);
       setEasyIMG(FragenEasyJson[easyIndex].img);
+      setHilfe(FragenEasyJson[easyIndex].hilfe)
+      setHilfeIMG(FragenEasyJson[easyIndex].hilfeIMG)
       setEasy(true);
     }
     if (storyList[storyListIndex] === "Frage Medium") {
@@ -74,6 +79,8 @@ export default function Game({ prolog, setProlog }) {
       setBottomText(FragenMediumJson[mediumIndex].bottom);
       setRichtigeAntwortMedium(FragenMediumJson[mediumIndex].correct);
       setMediumIMG(FragenMediumJson[mediumIndex].img);
+      setHilfe(FragenMediumJson[mediumIndex].hilfe)
+      setHilfeIMG(FragenMediumJson[mediumIndex].hilfeIMG)
       setMedium(true);
     }
   }
@@ -154,6 +161,8 @@ export default function Game({ prolog, setProlog }) {
         easy={easy}
         weiter={weiter}
         back={back}
+        hilfe={hilfe}
+        hilfeIMG={hilfeIMG}
       />
     );
   }
@@ -171,6 +180,8 @@ export default function Game({ prolog, setProlog }) {
         medium={medium}
         weiter={weiter}
         back={back}
+        hilfe={hilfe}
+        hilfeIMG={hilfeIMG}
       />
     );
   }
