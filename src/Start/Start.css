@@ -40,11 +40,13 @@
     background-color: rgb(255, 255, 255, .06);
     color: #fff;
     backdrop-filter: blur(10px);
+    transition: transform .2s ease-in-out;
 }
 
 .B1:hover {
     transform: scale(1.04);
-    border: solid .1px rgb(255, 255, 255, .5)
+    border: solid .1px rgb(255, 255, 255, .5);
+    cursor: pointer;
 }
 
 .P1 {
