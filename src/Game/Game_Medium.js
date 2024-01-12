@@ -65,7 +65,7 @@ export default function Game_Medium({
       <div className="D21">
         <p
           style={{
-            fontSize: "2.5rem",
+            fontSize: "1.5rem",
             marginLeft: "1rem",
             whiteSpace: "pre-line",
           }}
@@ -83,7 +83,7 @@ export default function Game_Medium({
         />
         <p
           style={{
-            fontSize: "2.5rem",
+            fontSize: "1.5rem",
             marginLeft: "1rem",
             whiteSpace: "pre-line",
           }}
@@ -111,6 +111,7 @@ export default function Game_Medium({
         onClick={() => {
           setFrageFeld(true);
         }}
+        style={{display: "none"}}
       >
         <img className="IMG4" src={"/images/frage.svg"} alt="Fragezeichen" />
       </button>

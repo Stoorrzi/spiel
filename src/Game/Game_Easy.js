@@ -91,7 +91,7 @@ export default function Game_Easy({
               checkAnswer(4);
             }}
           >
-            {antwortEasy[2]}
+            {antwortEasy[3]}
           </button>
         </div>
       </div>
@@ -99,6 +99,7 @@ export default function Game_Easy({
         onClick={() => {
           setFrageFeld(true);
         }}
+        style={{display: "none"}}
       >
         <img className="IMG4" src={"/images/frage.svg"} alt="Fragezeichen" />
       </button>

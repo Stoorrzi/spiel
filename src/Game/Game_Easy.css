@@ -43,14 +43,14 @@
 
 .B11 {
     position: absolute;
-    right: 4rem;
+    right: 1.5rem;
     bottom: 1.5rem;
-    font-size: 2.5rem;
-    padding: 1rem 4rem 1rem 4rem;
+    font-size: 1.2rem;
+    padding: .7rem 2.5rem .7rem 2.5rem;
     background-color: #D16AE1;
     border: none;
-    border-radius: 3rem;
-    font-weight: 700;
+    border-radius: 2.5rem;
+    font-weight: 600;
     color: #000;
 }
 .B11:hover{
@@ -58,14 +58,14 @@
 }
 .B111 {
     position: absolute;
-    left: 4rem;
+    left: 1.5rem;
     bottom: 1.5rem;
-    font-size: 2.5rem;
-    padding: 1rem 4rem 1rem 4rem;
+    font-size: 1.2rem;
+    padding: .7rem 2.5rem .7rem 2.5rem;
     background-color: #D16AE1;
     border: none;
-    border-radius: 3rem;
-    font-weight: 700;
+    border-radius: 2.5rem;
+    font-weight: 600;
     color: #000;
 }
 .B111:hover {
@@ -97,18 +97,19 @@
     color: #fff;
     backdrop-filter: blur(10px);
     align-items: center;
-    margin-top: 775px;
+    margin-top: auto;
+    margin-bottom: 3rem;
     position: relative;
 }
 
 .H12 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     max-width: 70%;
     text-align: center;
 }
 
 .P15 {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     max-width: 80%;
     color: #fad5d5;
     text-align: center;
@@ -141,23 +142,23 @@
 
 .D161 {
     display: flex;
-    width:60%;
+    width:50%;
     justify-content: space-around;
-    margin-top: 6rem;
+    margin-top: 3rem;
 }
 
 .D162 {
     display: flex;
-    width: 60%;
+    width: 50%;
     justify-content: space-around;
-    margin-top: 6rem;
+    margin-top: 3rem;
     
 }
 
 .B12 {
    
-    width: 40rem;
-    height: 25rem;
+    width: 20rem;
+    height: 11rem;
     font-size: 2vw;
     border-radius: 20px;
     border: none;
@@ -168,10 +169,8 @@
 
 .H12 {
     margin-top: 1rem;
-    margin-left: 2rem;
-    margin-right: 7rem;
     color: #fff;
-    font-size: 3.75rem;
+    font-size: 2rem;
     font-weight: 500;
     text-decoration: underline;
 }
@@ -180,6 +179,7 @@
     position: absolute;
     top: 1rem;
     right: 1rem;
+    width: 3rem;
 }
 
 .D17 {
@@ -275,7 +275,7 @@
 }
 
 .In1 {
-    width: 500px;
+    width: 300px;
     margin-left: 1rem;
     font-size: 2.5rem;
 }
