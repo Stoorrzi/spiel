@@ -4,16 +4,23 @@ import Prolog from "./Prolog";
 import Game_Story from "./Game_Story";
 import FragenEasyJson from "./FragenEasy.json";
 import StoryTextJson from "./Story.json";
+import FragenMediumJson from "./FragenMedium.json";
+import Game_Medium from "./Game_Medium";
 
 export default function Game({ prolog, setProlog }) {
   const storyList = [
-    "Frage Easy", 
-    "Story", "Story", "Story", 
     "Frage Easy",
-    "Story", "Story",
+    "Story",
+    "Story",
+    "Story",
     "Frage Easy",
-    "Story"
+    "Story",
+    "Story",
+    "Frage Easy",
+    "Story",
   ];
+
+  const [storyLength, setStoryLength] = useState(0)
 
   const [story, setStory] = useState(false);
   const [storyText, setStoryText] = useState();
@@ -21,7 +28,6 @@ export default function Game({ prolog, setProlog }) {
   const [storyIMG, setStoryIMG] = useState();
 
   const [storyListIndex, setStoryListIndex] = useState(0);
-
 
   const [easy, setEasy] = useState(false);
   const [frageEasy, setFrageEasy] = useState();
@@ -31,6 +37,7 @@ export default function Game({ prolog, setProlog }) {
   const [easyIndex, setEasyIndex] = useState(0);
   const [easyIMG, setEasyIMG] = useState();
 
+  const [medium, setMedium] = useState(false);
   const [frageMedium, setFrageMedium] = useState();
   const [aufgabeMedium, setAufgabeMedium] = useState();
   const [topText, setTopText] = useState();
@@ -40,15 +47,17 @@ export default function Game({ prolog, setProlog }) {
   const [mediumIMG, setMediumIMG] = useState();
 
   function Render() {
-    console.log(storyList[storyListIndex])
+    console.log(storyList[storyListIndex]);
     if (storyList[storyListIndex] === "Story") {
       setEasy(false);
+      setMedium(false);
       setStoryText(StoryTextJson[storyIndex].text);
       setStoryIMG(StoryTextJson[storyIndex].img);
       setStory(true);
     }
     if (storyList[storyListIndex] === "Frage Easy") {
       setStory(false);
+      setMedium(false);
       setFrageEasy(FragenEasyJson[easyIndex].title);
       setAufgabeEasy(FragenEasyJson[easyIndex].fragen);
       setAntwortEasy(FragenEasyJson[easyIndex].antworten);
@@ -57,15 +66,26 @@ export default function Game({ prolog, setProlog }) {
       setEasy(true);
     }
     if (storyList[storyListIndex] === "Frage Medium") {
+      setStory(false);
+      setEasy(false);
+      setFrageMedium(FragenMediumJson[mediumIndex].title);
+      setAufgabeMedium(FragenMediumJson[mediumIndex].Aufgabe);
+      setTopText(FragenMediumJson[mediumIndex].top);
+      setBottomText(FragenMediumJson[mediumIndex].bottom);
+      setRichtigeAntwortMedium(FragenMediumJson[mediumIndex].correct);
+      setMediumIMG(FragenMediumJson[mediumIndex].img);
+      setMedium(true);
     }
   }
 
   function weiter() {
     console.log("StoryListIndex: " + storyListIndex);
     console.log("StoryIndex: " + storyIndex);
-    
+
     if (prolog) {
       setProlog(false);
+    } else if (storyListIndex === storyLength - 1) {
+      alert("Spiel ist zu ende")
     } else {
       if (storyList[storyListIndex] === "Story") {
         setStoryIndex(storyIndex + 1);
@@ -80,13 +100,16 @@ export default function Game({ prolog, setProlog }) {
         setStoryListIndex(storyListIndex + 1);
       }
     }
-
-   
   }
 
   useEffect(() => {
     Render();
-  }, [storyListIndex])
+  }, [storyListIndex]);
+
+  useEffect(() => {
+    setStoryLength(storyList.length)
+    console.log(storyList.length)
+  }, [])
 
   function back() {
     if (storyList[storyListIndex - 1] === "Story") {
@@ -134,5 +157,23 @@ export default function Game({ prolog, setProlog }) {
       />
     );
   }
+
+  if (medium) {
+    return (
+      // eslint-disable-next-line react/jsx-pascal-case
+      <Game_Medium
+        frageMedium={frageMedium}
+        aufgabeMedium={aufgabeMedium}
+        topText={topText}
+        bottomText={bottomText}
+        richtigeAntwortMedium={richtigeAntwortMedium}
+        mediumIMG={mediumIMG}
+        medium={medium}
+        weiter={weiter}
+        back={back}
+      />
+    );
+  }
+
   return <div></div>;
 }

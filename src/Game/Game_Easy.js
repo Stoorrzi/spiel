@@ -13,13 +13,15 @@ export default function Game_Easy({
   back,
 }) {
   const [frageFeld, setFrageFeld] = useState(false);
+  const [alertBox, setAlertBox] = useState(false);
+  const [alertBoxFalsch, setAlertBoxFalsch] = useState(false);
+
 
   function checkAnswer(x) {
     if (x === richtigeAntwort) {
-      alert("richtig");
-      weiter();
+      setAlertBox(true)
     } else {
-      alert("Antwort falsch");
+      setAlertBoxFalsch(true)
     }
   }
 
@@ -53,44 +55,45 @@ export default function Game_Easy({
   return (
     <div className="D15">
       <p1 className="H12">{frageEasy}</p1>
-      <p style={{ marginTop: '3rem', marginLeft: '4rem', marginRight: '4rem',}}>{aufgabeEasy}</p>
+      <p className="P15">{aufgabeEasy}</p>
+
       <div className="D16">
-        <button
-          className="B12"
-          onClick={() => {
-            checkAnswer(1);
-          }}
-          style={{ fontSize: `calc(60px - ${antwortEasy.length * 1.5}px)` }}
-        >
-          {antwortEasy[0]}
-        </button>
-        <button
-          className="B12"
-          onClick={() => {
-            checkAnswer(2);
-          }}
-          style={{ fontSize: `calc(60px - ${antwortEasy.length * 1.5}px)` }}
-        >
-          {antwortEasy[1]}
-        </button>
-        <button
-          className="B12"
-          onClick={() => {
-            checkAnswer(3);
-          }}
-          style={{ fontSize: `calc(60px - ${antwortEasy.length * 1.5}px)` }}
-        >
-          {antwortEasy[2]}
-        </button>
-        <button
-          className="B12"
-          onClick={() => {
-            checkAnswer(4);
-          }}
-          style={{ fontSize: `calc(60px - ${antwortEasy.length * 1.5}px)` }}
-        >
-          {antwortEasy[2]}
-        </button>
+        <div className="D161">
+          <button
+            className="B12"
+            onClick={() => {
+              checkAnswer(1);
+            }}
+          >
+            {antwortEasy[0]}
+          </button>
+          <button
+            className="B12"
+            onClick={() => {
+              checkAnswer(2);
+            }}
+          >
+            {antwortEasy[1]}
+          </button>
+        </div>
+        <div className="D162">
+          <button
+            className="B12"
+            onClick={() => {
+              checkAnswer(3);
+            }}
+          >
+            {antwortEasy[2]}
+          </button>
+          <button
+            className="B12"
+            onClick={() => {
+              checkAnswer(4);
+            }}
+          >
+            {antwortEasy[2]}
+          </button>
+        </div>
       </div>
       <button
         onClick={() => {
@@ -107,6 +110,49 @@ export default function Game_Easy({
       >
         Zurück
       </button>
+      {alertBox ? (
+        <>
+          <div className="AD1">
+            <div className="AD2">
+              <p className="AP1">
+                Klasse, diese Aufgabe hast du richtig bearbeitet
+              </p>
+              <button
+                className="AB1"
+                onClick={() => {
+                  weiter();
+                  setAlertBox(false)
+                }}
+              >
+                Weiter
+              </button>
+            </div>
+          </div>
+        </>
+      ) : (
+        <></>
+      )}
+      {alertBoxFalsch ? (
+        <>
+          <div className="AD1">
+            <div className="AD21">
+              <p className="AP1">
+                Deine Antwort ist leider Falsch!
+              </p>
+              <button
+                className="AB1"
+                onClick={() => {
+                  setAlertBoxFalsch(false)
+                }}
+              >
+                OK
+              </button>
+            </div>
+          </div>
+        </>
+      ) : (
+        <></>
+      )}
     </div>
   );
 }

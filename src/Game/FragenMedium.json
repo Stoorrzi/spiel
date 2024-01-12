@@ -1,10 +1,10 @@
 [
     {
         "title": "Definiere die Variablen",
-        "Aufgabe": "",
-        "top": ["Main", "<br />", "public staic void"],
-        "bottom": ["Main", "<br />", "public staic void"],
-        "correct": "intx=80;\ninty=80;",
+        "Aufgabe": "Dein Kurs ist x = 85; ",
+        "top": ["Main\npublic staic void"],
+        "bottom": ["Main\npublic staic void"],
+        "correct": "intx=80;inty=80;",
         "img": "img"
     },
     {

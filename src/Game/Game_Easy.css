@@ -53,6 +53,9 @@
     font-weight: 700;
     color: #000;
 }
+.B11:hover{
+    transform: scale(1.1);
+}
 .B111 {
     position: absolute;
     left: 4rem;
@@ -64,6 +67,9 @@
     border-radius: 3rem;
     font-weight: 700;
     color: #000;
+}
+.B111:hover {
+    transform: scale(1.1);
 }
 
 .IMG3 {
@@ -98,6 +104,15 @@
 
 .H12 {
     font-size: 4rem;
+    max-width: 70%;
+    text-align: center;
+}
+
+.P15 {
+    font-size: 1.5vw;
+    max-width: 80%;
+    color: #fad5d5;
+    text-align: center;
 }
 
 .P12 {
@@ -120,23 +135,37 @@
 }
 
 .D16 {
-    width: 80%;
-    display: grid;
-    grid-template-columns: 30% 30%;
-    grid-template-rows: 30% 30%;
-    row-gap: 50px;
-    column-gap: 50px;
-    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
 
+}
+
+.D161 {
+    display: flex;
+    width:60%;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+.D162 {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    margin-top: 6rem;
+    
 }
 
 .B12 {
    
-    padding: 20% ;
-    font-size: 5rem;
+    width: 40rem;
+    height: 25rem;
+    font-size: 2vw;
     border-radius: 20px;
     border: none;
     font-weight: 600;
+    white-space: pre-line;
     
 }
 
@@ -252,4 +281,57 @@
     width: 500px;
     margin-left: 1rem;
     font-size: 2.5rem;
+}
+
+
+
+.AD1 {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+}
+
+.AD2 {
+    background-color: rgba(94, 221, 94, 0.95);
+    padding: 1rem 5rem 1rem 5rem;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AD21 {
+    background-color: rgba(238, 52, 52, 0.95);
+    padding: 1rem 5rem 1rem 5rem;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AP1 {
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+
+.AB1 {
+    width: 20rem;
+    font-size: 1.7vw;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.AB1:hover {
+    transform: scale(1.1);
 }
