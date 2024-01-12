@@ -12,7 +12,7 @@ export default function Game_Story({
       <img className="IMG3" src={storyIMG} alt="Labor" />
       <div className="D14">
         <div className="D13">
-          <p className="P12" style={{ fontSize: "1.1vw", textAlign: "center", fontWeight: "500" }} >{storyText} </p>
+          <p className="P12" style={{ fontSize: "1.3vw", textAlign: "center", fontWeight: "500" }} >{storyText} </p>
         </div>
       </div>
       <button
