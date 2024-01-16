@@ -1,31 +1,33 @@
 [
 {
+    "text": "",
+    "img": "/images/Computer.png"
+
+},
+{
     "text": "Du hast die Nachricht entschlüsseln können! Es ist eine Hilferuf der Bewohner des Slawpplaneten…",
-    "img": "/images/Computer.svg"
+    "img": "/images/Computer2.png"
 
 },
 {
     "text": "Um mehr über die Lage herauszufinden, musst du eine Spionagedrohne zum Planeten schicken…",
-    "img": "/images/Drohne.svg"
+    "img": "/images/Drohne.png"
 
 },
 {
     "text": "Um die Drohne erfolgreich zum Planeten zu leiten musst du die Koordinaten richtig eingeben.  Allerdings kann die Drohne nur Binär-Zahlen lesen. Übersetze die Koordinaten in Binär-Zahlen, um die Drohne zu navigieren.",
-    "img": "/images/Drohne.svg"
+    "img": "/images/Drohne.png"
 
 },
 
-
-
-
 {
     "text": "Die Spionagedrohne ist erfolgreich zurückgekehrt. Die Bewohner des Slawpplaneten werden vom bösen Herrscher Gargor unterdrückt. Um die Bewohner zu befreien musst du Gargor festnehmen.",
-    "img": "/images/Felder.svg"
+    "img": "/images/Felder.png"
 
 },
 {
     "text": "Gargor lebt in einer Burg auf dem Slawpplaneten, die von seinen besten Soldaten bewacht wird. Um zum Slawpplaneten zu gelangen und Gargor festzunehmen, musst du eine Rakete bauen",
-    "img": "/images/Gargor.svg"
+    "img": "/images/Gargor.png"
 
 },
 
@@ -41,12 +43,12 @@
 
 {
     "text": "Du befindest dich auf dem Weg zum Slawpplaneten, um die Bewohner von ihrem bösen Herrscher Gargor zu befreien.",
-    "img": "/images/Raumschiff.svg"
+    "img": "/images/Cockpit.png"
 
 },
 {
     "text": "Auf der Reise gerätst du plötzlich in einen Meteoridenschauer. Durch dein Talent im Fliegen schaffst du es den meisten Meteoriden auszuweichen. Einer trifft allerdings das Navigationszentrum der Rakete. Um den Kurs wieder zu finden musst du die Koordinaten des Slawpplaneten eingeben.",
-    "img": "/images/Raumschiff.svg"
+    "img": "/images/Cockpit2.png"
 
 },
 
@@ -54,12 +56,12 @@
 
 {
     "text": "Du hast es geschafft! Du bist beim Slawpplaneten angekommen.",
-    "img": "/images/Raumschiff.svg"
+    "img": "/images/Planet.png"
 
 },
 {
     "text": "Du schaffst es ungemerkt zu landen. Um zu Gargor zu kommen musst du jedoch an unzähligen Wachen vorbei. Da du im Kampf in Unterzahl währst versuchst du die Wachen abzulenken, um ungemerkt in Gargor’s Thronsaal zu kommen",
-    "img": "/images/Raumschiff.svg"
+    "img": "/images/Eingang.png"
 
 },
 
@@ -67,12 +69,12 @@
 
 {
     "text": "Es hat funktioniert. Die Wachen maschieren alle in die falsche Richtung und verlassen ihre Positionen. Dadurch gelangst du unbemerkt in den Thronsaal",
-    "img": "/images/Raumschiff.svg"
+    "img": "/images/Rennen.png"
 
 },
 {
     "text": "In dem Moment, indem du den Thronsaal betritst entwischt dir Gargor über eine versteckte Hintertür. Durch Drohnenaufnahmen findest du heraus, dass sich Gargor in den hoch-giftigen Feldern der Slawppflanzen aufhält. Da du durch das Gift die Felder nicht durchqueeren kannst musst du einen Roboter programmieren, der Gargor fängt.",
-    "img": "/images/Raumschiff.svg"
+    "img": "/images/Thron.png"
 
 },
 {

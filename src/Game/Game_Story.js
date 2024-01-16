@@ -1,4 +1,6 @@
+import { useEffect, useState } from "react";
 import "./Game_Easy.css";
+import ImageComponent from "./ImageComponenet";
 
 export default function Game_Story({
   storyText,
@@ -7,12 +9,25 @@ export default function Game_Story({
   weiter,
   back,
 }) {
+  
   return (
     <div>
-      <img className="IMG3" src={storyIMG} alt="Labor" />
+      <ImageComponent src={storyIMG} />
       <div className="D14">
-        <div className="D13">
-          <p className="P12" style={{ fontSize: "1.3vw", textAlign: "center", fontWeight: "500" }} >{storyText} </p>
+        <div
+          className="D13"
+          style={{ display: storyText.length > 0 ? "flex" : "none" }}
+        >
+          <p
+            className="P12"
+            style={{
+              fontSize: "1.3vw",
+              textAlign: "center",
+              fontWeight: "500",
+            }}
+          >
+            {storyText}{" "}
+          </p>
         </div>
       </div>
       <button

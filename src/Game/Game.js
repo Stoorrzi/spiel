@@ -9,7 +9,7 @@ import Game_Medium from "./Game_Medium";
 
 export default function Game({ prolog, setProlog }) {
   const storyList = [
-    "Frage Medium",
+    "Story",
     "Frage Easy",
     "Story",
     "Story",
@@ -24,31 +24,31 @@ export default function Game({ prolog, setProlog }) {
   const [storyLength, setStoryLength] = useState(0)
 
   const [story, setStory] = useState(false);
-  const [storyText, setStoryText] = useState();
+  const [storyText, setStoryText] = useState("");
   const [storyIndex, setStoryIndex] = useState(0);
-  const [storyIMG, setStoryIMG] = useState();
+  const [storyIMG, setStoryIMG] = useState("");
 
   const [storyListIndex, setStoryListIndex] = useState(0);
 
   const [easy, setEasy] = useState(false);
-  const [frageEasy, setFrageEasy] = useState();
-  const [aufgabeEasy, setAufgabeEasy] = useState();
-  const [antwortEasy, setAntwortEasy] = useState();
-  const [richtigeAntwort, setRichtigeAntwort] = useState();
+  const [frageEasy, setFrageEasy] = useState("");
+  const [aufgabeEasy, setAufgabeEasy] = useState("");
+  const [antwortEasy, setAntwortEasy] = useState("");
+  const [richtigeAntwort, setRichtigeAntwort] = useState("");
   const [easyIndex, setEasyIndex] = useState(0);
-  const [easyIMG, setEasyIMG] = useState();
+  const [easyIMG, setEasyIMG] = useState("");
 
   const [medium, setMedium] = useState(false);
-  const [frageMedium, setFrageMedium] = useState();
-  const [aufgabeMedium, setAufgabeMedium] = useState();
-  const [topText, setTopText] = useState();
-  const [bottomText, setBottomText] = useState();
-  const [richtigeAntwortMedium, setRichtigeAntwortMedium] = useState();
+  const [frageMedium, setFrageMedium] = useState("");
+  const [aufgabeMedium, setAufgabeMedium] = useState("");
+  const [topText, setTopText] = useState("");
+  const [bottomText, setBottomText] = useState("");
+  const [richtigeAntwortMedium, setRichtigeAntwortMedium] = useState("");
   const [mediumIndex, setMediumIndex] = useState(0);
-  const [mediumIMG, setMediumIMG] = useState();
+  const [mediumIMG, setMediumIMG] = useState("");
 
-  const [hilfe, setHilfe] = useState()
-  const [hilfeIMG, setHilfeIMG] = useState()
+  const [hilfe, setHilfe] = useState("")
+  const [hilfeIMG, setHilfeIMG] = useState("")
 
   function Render() {
     console.log(storyList[storyListIndex]);

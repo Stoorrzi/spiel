@@ -1,16 +1,16 @@
  [
     {
       "title": "Welches Wort ergibt sich aus den Anfangsbuchstzaben der rot geschriebenen Wörtern",
-      "fragen": ["In(0,0,0) der(0,0,255) hügeligen(255,0,0), idyllischen(255,0,0) Ferne(0,0,255) weit(0,0,0) weg(0,255,0) von(0,0,255) der(0,255,255) Erde(255,0,0) lebten(0,0,0) friedliche(0,255,0) Individuen(0,255,0), die(0,255,255) sich(0,0,255) liebevoll(0,255,0) um(0,255,255) ihre(0,255,0) Familie(0,0,255) und(0,255,0) ihre(0,255,0) Umwelt(0,0,255) kümmern(0,255,255), während(0,255,0) ein(0,0,255) friedlicher(255,0,0) König(0,255,255) das(0,255,0) Land(255,0,0) regiert(0,0,0) und(0,0,0) immer(0,0,0) einfallsreiche(0,0,0) Ideen(255,0,0) hat(255,0,0)."],
-      "antworten": ["iwlruie", "dfvsfue", "wfiliuiwd", "eflih"],
+      "fragen": ["In(0,0,0) der(0,0,255) hügeligen(255,0,255), idyllischen(255,255,0) Ferne(0,0,255) weit(0,0,0) weg(0,255,0) von(0,0,255) der(0,255,255) Erde(255,0,0) lebten(0,0,0) friedliche(0,255,0) Individuen(0,255,0), die(0,255,255) sich(0,0,255) liebevoll(0,255,0) um(0,255,255) ihre(0,255,0) Familie(0,0,255) und(0,255,0) ihre(0,255,0) Umwelt(0,0,255) kümmern(0,255,255), während(0,255,0) ein(0,0,255) friedlicher(255,0,0) König(0,255,255) das(0,255,0) Land(255,0,0) regiert(0,0,0) und(0,0,0) immer(0,0,0) einfallsreiche(0,0,0) Ideen(255,0,0) hat(255,0,0)."],
+      "antworten": ["IWLRUIE", "DFVSFUE", "WFILIUIWD", "EFLIH"],
       "correct": 4,
       "img": "/images/prolog.svg",
       "hilfe": "Die hilfe hilft mir dabei",
       "hilfeIMG": "/images/help2.png"
     },
     {
-      "title": "Übersetze diesen Binärcode",
-      "fragen": ["Die Koordinaten des Slawpplaneten sind X: 112 Y: 86 Z: 63.Was sind die richtigen Koordinaten in Binär?"],
+      "title": "Übersetze in Binärcode",
+      "fragen": ["Die Koordinaten des Slawpplaneten sind X: 112 Y: 86 Z: 63. Was sind die richtigen Koordinaten in Binär?"],
       "antworten": [
         ["1110000\n1010110\n0111111"], 
         ["1111000\n1010110\n0011111"],
