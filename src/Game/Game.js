@@ -9,16 +9,26 @@ import Game_Medium from "./Game_Medium";
 
 export default function Game({ prolog, setProlog }) {
   const storyList = [
+    "Story",
+    "Frage Easy",
+    "Story",
+    "Story",
+    "Story",
+    "Frage Easy",
+    "Story",
+    "Story",
+    "Frage Easy",
+
+    "Story",
+    "Story",
     "Frage Medium",
     "Story",
-    "Frage Easy",
+    "Story",
+    "Frage Medium",
+    "Frage Medium",
     "Story",
     "Story",
-    "Story",
-    "Frage Easy",
-    "Story",
-    "Story",
-    "Frage Easy",
+    "Frage Medium",
     "Story",
   ];
 
