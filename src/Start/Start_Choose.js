@@ -7,9 +7,6 @@ export default function Start_Choose() {
   const newGame = () => {
     navigate("/game");
   };
-  const loadGame = () => {
-    navigate("/game/1");
-  };
   const loadSettings = () => {
     navigate("/settings");
   };
@@ -28,14 +25,6 @@ export default function Start_Choose() {
           }}
         >
           <p className="P1">Erstelle ein neues Spiel</p>
-        </button>
-        <button
-          className="B1"
-          onClick={() => {
-            loadGame();
-          }}
-        >
-          <p className="P1">Spiel laden</p>
         </button>
       </div>
       <div>

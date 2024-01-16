@@ -5,7 +5,9 @@
         "top": ["Main\npublic staic void"],
         "bottom": ["Main\npublic staic void"],
         "correct": "intx=80;inty=80;",
-        "img": "img"
+        "img": "img",
+        "hilfe": "",
+        "hilfeIMG": ""
     },
     {
         "title": "Gebe den gewünschten Code aus",
