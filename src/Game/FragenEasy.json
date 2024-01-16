@@ -5,8 +5,18 @@
       "antworten": ["IWLRUIE", "DFVSFUE", "WFILIUIWD", "EFLIH"],
       "correct": 4,
       "img": "/images/prolog.svg",
-      "hilfe": "Die hilfe hilft mir dabei",
-      "hilfeIMG": "/images/help2.png"
+      "hilfe": [
+        "Die RGB-Codes sind der Schlüssel, um die versteckte Botschaft zu entschlüsseln. Hier ist ein Hinweis, wie das RGB-System funktioniert:",
+        "\n\n",
+        "Bei der Übertragung ist der Farb-Code verloren gegangen, daher werden die RGB-Werte hinter den Wörtern dargestellt.",
+        "\n\n",
+        "RGB steht für Rot, Grün und Blau, die drei grundlegenden Farben. Jeder Buchstabe in der Nachricht wird durch eine Kombination dieser Farben dargestellt. Die Zahlen in den Klammern repräsentieren die Intensität der Farben. Zum Beispiel bedeutet (255, 0, 0) volle Intensität von Rot, (0, 255, 0) volle Intensität von Grün und (0, 0, 255) volle Intensität von Blau.",
+        "\n\n",
+        "In der Nachricht hast du Wörter mit roten Buchstaben gesehen. Achte darauf, dass der erste Buchstabe dieser roten Wörter die eigentliche Nachricht ergibt. Der Wert des roten Kanals (erste Zahl) gibt dir den Buchstaben. Die anderen Farben sind Ablenkungen und sollen dich nicht verwirren.",
+        "\n\n",
+        "Bleib konzentriert, Agent! Die Slawpbewohner zählen auf dich, um ihre Nachrichten zu entschlüsseln und die Geheimnisse des Slawpplaneten zu lüften."
+        ],
+      "hilfeIMG": ""
     },
     {
       "title": "Übersetze in Binärcode",
@@ -18,13 +28,59 @@
         ["1110000\n1011110\n0111111"]
       ],
       "correct": 1,
-      "img": "/images/prolog.svg"
+      "img": "",
+      "hilfe":[
+        "Wie funktioniert die Dezimal-Binär-Umwandlung?",
+        "\n\n",
+        "Um eine Dezimalzahl ins Binärsystem umzuwandeln, kannst du folgende Methode verwenden:",
+        "\n\n",
+        "1. Teile die Dezimalzahl durch 2.",
+        "\n",
+        "2. Notiere den Rest.",
+        "\n",
+        "3. Teile den Quotienten erneut durch 2.",
+        "\n",
+        "4. Notiere den Rest.",
+        "\n",
+        "5. Wiederhole diese Schritte, bis der Quotient 0 ist.",
+        "\n\n",
+        "Die Ziffern der Binärzahl sind dann die Reste in umgekehrter Reihenfolge.",
+        "\n\n",
+        "Beispiel",
+        "\n\n",
+        "Um die Dezimalzahl 12 ins Binärsystem umzuwandeln, gehst du wie folgt vor:",
+        "\n\n",
+        "1. 12 / 2 = 6 Rest 0",
+        "\n",
+        "2. 6 / 2 = 3 Rest 0",
+        "\n",
+        "3. 3 / 2 = 1 Rest 1",
+        "\n",
+        "4. 1 / 2 = 0 Rest 1",
+        "\n\n",
+        "Die Binärzahl für 12 ist also 1100.",
+        "\n\n",
+        "Hier weitere Beispiele",
+        "\n\n",
+        "Für die Zahl 24:",
+        "\n\n",
+        "1. 24 / 2 = 12 Rest 0",
+        "\n",
+        "2. 12 / 2 = 6 Rest 0",
+        "\n",
+        "3. 6 / 2 = 3 Rest 0",
+        "\n",
+        "4. 3 / 2 = 1 Rest 1",
+        "\n\n",
+        "Die Binärzahl für 24 ist also 1110."
+
+      ]
     },
     {
       "title": "Wähle die richtige Antwort aus",
       "fragen": ["Welcher Code ist richtig, um die Rakete zu starten?"],
       "antworten": ["iwlruie", "dfvsfue", "wfiliuiwd", "eflih"],
       "correct": 4,
-      "img": "/images/prolog.svg"
+      "img": ""
     }
   ]
