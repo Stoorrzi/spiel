@@ -5,7 +5,7 @@ export default function Start_Choose({setProlog}) {
   const navigate = useNavigate();
 
   const newGame = () => {
-    setProlog(false)
+    setProlog(true)
     navigate("/game");
   };
   const loadSettings = () => {
