@@ -1,7 +1,7 @@
 [
     {
         "title": "Variablen deklarieren",
-        "Aufgabe": "Deklariere die Variablen x, y, z mit den richtigen Koordinaten. Außerdem soll in der Variablen ZielPlanet “Slawpplanet” gespeichert werden",
+        "Aufgabe": "Deklariere die Variablen x, y, z mit den richtigen Koordinaten. Außerdem soll in der Variablen ZielPlanet “Slawpplanet” gespeichert werden. Die Koordinaten des Slawpplaneten sind X: 112 Y: 86 Z: 63.",
         "top": ["public class navigator{"],
         "bottom": ["public static void main(String[] args){\nfliegeZu(ZielPlanet,x,y,z);\n}\n}"],
         "correct": "intx=112;inty=86;intz=63;StringZielPlanet='Slawpplanet';",
