@@ -5,6 +5,16 @@
 
 },
 {
+    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "img": "/images/H1.1.png"
+
+},
+{
+    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "img": "/images/H1.2.png"
+
+},
+{
     "text": "Du hast die Nachricht entschlüsseln können! Es ist eine Hilferuf der Bewohner des Slawpplaneten…",
     "img": "/images/Computer2.png"
 
@@ -19,6 +29,16 @@
     "img": "/images/Drohne.png"
 
 },
+{
+    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "img": "/images/H2.1.png"
+
+},
+{
+    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "img": "/images/H2.2.png"
+
+},
 
 {
     "text": "Die Spionagedrohne ist erfolgreich zurückgekehrt. Die Bewohner des Slawpplaneten werden vom bösen Herrscher Gargor unterdrückt. Um die Bewohner zu befreien musst du Gargor festnehmen.",
@@ -30,7 +50,31 @@
     "img": "/images/Gargor.png"
 
 },
+{
+    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "img": "/images/H3.1.png"
 
+},
+{
+    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "img": "/images/H3.2.png"
+
+},
+{
+    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "img": "/images/H3.3.png"
+
+},
+{
+    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "img": "/images/H3.4.png"
+
+},
+{
+    "text": "Du hast es Geschafft und die Rakete ist einsatzbereit! Begebe dich jetzt auf die Mission Gargor zu fangen und die Bewohner des Slwapplaneten zu befreien",
+    "img": "/images/Raumschiff.png"
+
+},
 
 
 
@@ -49,6 +93,16 @@
 {
     "text": "Mitten in deinem Abenteuer gerätst du in einen Meteoridenschauer. Mit deinem Flugtalent entkommst du den meisten, doch einer trifft das Navigationszentrum. Um den Kurs wiederzufinden, musst du schnell die Koordinaten des Slawpplaneten eingeben. Die Reise hängt davon ab!",
     "img": "/images/Cockpit2.png"
+
+},
+{
+    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "img": "/images/H4.1.png"
+
+},
+{
+    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "img": "/images/H4.2.png"
 
 },
 
@@ -83,6 +137,16 @@
 {
     "text": "Herzlichen Glückwunsch Du hast Gargor gefangen genommen und die Bewohner des Slawpplaneten befreit Mit dem Gefangenen kehrst du als Sieger auf die Erde zurück",
     "img": "/images/Ende.png"
+
+},
+
+
+
+
+
+{
+    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "img": "/images/H1.png"
 
 }
 ]
