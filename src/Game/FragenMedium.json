@@ -36,7 +36,28 @@
         "top": ["public class Ablenkung{\npublic static void main(String[] args){"],
         "bottom": ["}\n}"],
         "correct": "System.out.println('Eindringlinge!!! Auf dem Berg sind sie gelandet!');",
-        "img": "img"
+        "img": "img",
+        "hilfe": [
+            "In dieser Mission musst du dein Programmiergeschick einsetzen, um wichtige Informationen zu speichern. In der Welt der Programmierung verwenden wir verschiedene Datentypen, um unterschiedliche Arten von Informationen zu repräsentieren. Für diese Aufgabe wirst du mit zwei grundlegenden Datentypen arbeiten: int (für Ganzzahlen) und String (für Zeichenketten).",
+            "\n\n",
+            "int (Ganzzahlen):",
+            "\n\n",
+            "Ganzzahlen werden in Java als 'int' bezeichnet. Du kannst diese verwenden, um numerische Werte ohne Dezimalstellen zu repräsentieren. Hier ist ein Beispiel, wie du eine Integer-Variable deklarierst und initialisierst:",
+            "\n\n",
+            "int myInteger = 42;",
+            "\n\n",
+            "In diesem Beispiel haben wir die Integer-Variable myInteger erstellt und mit dem Wert 42 initialisiert. Du kannst jedoch beliebige Ganzzahlen für deine Zwecke verwenden",
+            "\n\n",
+            "String (Zeichenketten):",
+            "\n\n",
+            "Zeichenketten werden in Java als 'String' bezeichnet. Du kannst sie verwenden, um Textinformationen zu speichern. Hier ist ein Beispiel, wie du eine String-Variable deklarierst und initialisierst",
+            "\n\n",
+            "String myString = 'Hallo, Abenteurer!'",
+            "\n\n",
+            "In diesem Beispiel haben wir die String-Variable myString erstellt und mit dem Text 'Hallo, Abenteurer!' initialisiert. Du kannst jedoch jeden gewünschten Text in Anführungszeichen setzen.",
+            "\n\n",
+            "Deine Aufgabe besteht darin, diese Grundlagen der Datentypen zu nutzen, um die Koordinaten in das System einzutragen und deine Mission erfolgreich fortzusetzen. Viel Erfolg bei der Nutzung von int und String!"
+        ]
     },
     {
         "title": "Bearbeite den Code",
@@ -45,6 +66,30 @@
         "bottom": ["}\n}"],
         "correct":
             "dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}dreheLinks();for(inti=0;i<6;i++){geheVorwärts();}dreheLinks();for(inti=0;i<2;i++){geheVorwärts();}dreheLinks();for(inti=0;i<2;i++){geheVorwärts();}dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}dreheLinks();for(inti=0;i<4;i++){geheVorwärts();}dreheLinks();for(inti=0;i<9;i++){geheVorwärts();}dreheLinks();for(inti=0;i<3;i++){geheVorwärts();}dreheLinks();for(inti=0;i<4;i++){geheVorwärts();}dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}festnehmen();}",
-        "img": "/images/imgLabyrinth.png"
+        "img": "/images/imgLabyrinth.png",
+        "hilfe": [
+            "In Java wird die Konsolenausgabe mit dem Befehl System.out.println() durchgeführt. Hier ist eine kurze Erklärung der Syntax:",
+            "\n\n",
+            "System.out: Dies ist ein Objekt, das die Standardausgabe repräsentiert. Die out-Eigenschaft steht für den Ausgabestrom.",
+            "\n",
+            "println(): Dies ist eine Methode von System.out, die dazu dient, eine Zeichenkette (String) oder andere Datentypen auf der Konsole auszugeben. Das 'ln' steht für 'line' und fügt automatisch einen Zeilenumbruch nach der Ausgabe hinzu.",
+            "\n\n",
+            "Hier ist ein einfaches Beispiel:",
+            "\n\n",
+            "public class KonsolenOutputBeispiel {",
+            "\n\n",
+            "public static void main(String[] args) {",
+            "\n\n",
+            "// Hier wird eine Zeichenkette auf der Konsole ausgegeben.",
+            "\n\n",
+            "System.out.println('Hallo, dies ist eine Konsolenausgabe in Java!');",
+            "\n\n",
+            "}",
+            "\n\n",
+            "}",
+            "\n\n",
+            "In diesem Beispiel wird 'Hallo, dies ist eine Konsolenausgabe in Java!' auf der Konsole ausgegeben."
+
+        ]
     }
 ]
