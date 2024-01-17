@@ -5,7 +5,7 @@
         "top": ["public class navigator{"],
         "bottom": ["public static void main(String[] args){\nfliegeZu(ZielPlanet,x,y,z);\n}\n}"],
         "correct": "intx=112;inty=86;intz=63;StringZielPlanet='Slawpplanet';",
-        "img": "img",
+        "img": "",
         "hilfe": [
             "In dieser Mission musst du dein Programmiergeschick einsetzen, um wichtige Informationen zu speichern. In der Welt der Programmierung verwenden wir verschiedene Datentypen, um unterschiedliche Arten von Informationen zu repräsentieren. Für diese Aufgabe wirst du mit zwei grundlegenden Datentypen arbeiten: int (für Ganzzahlen) und String (für Zeichenketten).",
         "\n\n",
@@ -35,8 +35,8 @@
         "Aufgabe": "Quiz: Du willst die Wachen mit der Hilfe eines Roboters ablenken, der Ausgibt “Eindringlinge!!! Auf dem Berg sind sie gelandet!”.",
         "top": ["public class Ablenkung{\npublic static void main(String[] args){"],
         "bottom": ["}\n}"],
-        "correct": "System.out.println('Eindringlinge!!! Auf dem Berg sind sie gelandet!');",
-        "img": "img",
+        "correct": "System.out.println('Eindringlinge!!!AufdemBergsindsiegelandet!');",
+        "img": "",
         "hilfe": [
             "In dieser Mission musst du dein Programmiergeschick einsetzen, um wichtige Informationen zu speichern. In der Welt der Programmierung verwenden wir verschiedene Datentypen, um unterschiedliche Arten von Informationen zu repräsentieren. Für diese Aufgabe wirst du mit zwei grundlegenden Datentypen arbeiten: int (für Ganzzahlen) und String (für Zeichenketten).",
             "\n\n",

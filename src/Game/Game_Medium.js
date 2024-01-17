@@ -12,7 +12,7 @@ export default function Game_Medium({
   weiter,
   back,
   hilfe,
-  hilfeIMG
+  hilfeIMG,
 }) {
   const [frageFeld, setFrageFeld] = useState(false);
   const [alertBox, setAlertBox] = useState(false);
@@ -22,13 +22,13 @@ export default function Game_Medium({
 
   function checkAnswer() {
     console.log(richtigeAntwortMedium);
-    let answer = textInput.replace(/\s/g, '');
+    let answer = textInput.replace(/\s/g, "");
     answer = answer.replace(/"/g, "'");
-    console.log(answer)
+    console.log(answer);
     if (answer.localeCompare(richtigeAntwortMedium) === 0) {
-      setAlertBox(true)
+      setAlertBox(true);
     } else {
-      setAlertBoxFalsch(true)
+      setAlertBoxFalsch(true);
     }
   }
 
@@ -45,15 +45,15 @@ export default function Game_Medium({
             <p className="P13">Information</p>
           </div>
           {hilfeIMG ? (
-              <div className="D19">
+            <div className="D19">
               <img className="IMG7" src={hilfeIMG} alt="HelpIMG" />,
               <p className="P14">{hilfe}</p>
-              </div>
-            ) : (
-              <div className="D19">
+            </div>
+          ) : (
+            <div className="D19">
               <p className="P141">{hilfe}</p>
-              </div>
-            )}
+            </div>
+          )}
         </div>
         <button
           onClick={() => {
@@ -67,39 +67,62 @@ export default function Game_Medium({
   }
 
   return (
-    <div className="D25">
+    <div
+      className="D25"
+      style={{
+        backgroundColor: "#424242",
+      }}
+    >
+      <img
+        src={mediumIMG}
+        alt="background"
+        style={{
+          position: "absolute",
+          zIndex: "1",
+          width: "500px",
+          height: "500px",
+          bottom: "7rem",
+          right: "1rem",
+          display: mediumIMG.length > 0 ? "inline" : "none"
+        }}
+      />
       <p1 className="H12" style={{ marginBottom: "1rem" }}>
         {frageMedium}
       </p1>
       <p className="P15">{aufgabeMedium}</p>
-      <div className="D21">
-        <p
-          style={{
-            fontSize: "1.5rem",
-            marginLeft: "1rem",
-            whiteSpace: "pre-line",
-          }}
+      <div className="D211" style={{justifyContent: mediumIMG.length > 0 ? "normal" : "center"}}>
+        <div
+          className="D21"
+          style={{ width: mediumIMG.length > 0 ? "50%" : "80%" }}
         >
-          {topText}
-        </p>
-        <textarea
-          className="In1"
-          type="text"
-          id="feld"
-          onChange={(e) => {
-            setTextInput(e.target.value);
-            console.log(textInput);
-          }}
-        />
-        <p
-          style={{
-            fontSize: "1.5rem",
-            marginLeft: "1rem",
-            whiteSpace: "pre-line",
-          }}
-        >
-          {bottomText}
-        </p>
+          <p
+            style={{
+              fontSize: "1.5rem",
+              marginLeft: "1rem",
+              whiteSpace: "pre-line",
+            }}
+          >
+            {topText}
+          </p>
+          <textarea
+            className="In1"
+            type="text"
+            id="feld"
+            onChange={(e) => {
+              setTextInput(e.target.value);
+              console.log(textInput);
+            }}
+          />
+          <p
+            style={{
+              fontSize: "1.5rem",
+              marginLeft: "1rem",
+              whiteSpace: "pre-line",
+            }}
+          >
+            {bottomText}
+          </p>
+        </div>
       </div>
       <button
         className="B11"
@@ -136,7 +159,7 @@ export default function Game_Medium({
                 className="AB1"
                 onClick={() => {
                   weiter();
-                  setAlertBox(false)
+                  setAlertBox(false);
                 }}
               >
                 Weiter
@@ -151,13 +174,11 @@ export default function Game_Medium({
         <>
           <div className="AD1">
             <div className="AD21">
-              <p className="AP1">
-                Deine Antwort ist leider Falsch!
-              </p>
+              <p className="AP1">Deine Antwort ist leider Falsch!</p>
               <button
                 className="AB1"
                 onClick={() => {
-                  setAlertBoxFalsch(false)
+                  setAlertBoxFalsch(false);
                 }}
               >
                 OK
