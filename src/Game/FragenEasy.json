@@ -81,6 +81,21 @@
       "fragen": ["Welcher Code ist richtig, um die Rakete zu starten?"],
       "antworten": ["iwlruie", "dfvsfue", "wfiliuiwd", "eflih"],
       "correct": 4,
-      "img": ""
+      "img": "",
+      "hilfe":[
+        "Stell dir vor, du möchtest in der Welt der Programmierung Dinge erschaffen, organisieren und steuern. Genau hier kommen \"Klassen\" ins Spiel. In objektorientierten Programmiersprachen sind Klassen wie Baupläne oder Schablonen, die dir helfen, bestimmte Dinge zu erstellen.",
+        "\n\n",
+        "Eine \"Klasse\" beschreibt, wie ein bestimmtes Objekt aussehen und sich verhalten soll. Denk daran, ein Objekt könnte alles sein - von einem Spielzeugauto bis zu einem Bankkonto in einem Computerprogramm.",
+        "\n\n",
+        "Jetzt lass uns tiefer in das Konzept eintauchen und einen Blick auf Klassen und Methoden werfen, um zu verstehen, wie sie zusammenarbeiten.",
+        "\n",
+        "Stell dir vor, du baust nicht nur ein Spielzeugauto, sondern möchtest, dass es bestimmte Dinge tun kann, wie sich bewegen oder hupen. Hier kommen die \"Methoden\" ins Spiel. In Java sind Methoden wie die speziellen Fähigkeiten oder Aufgaben, die dein Spielzeugauto ausführen kann.",
+        "\n\n",
+        "Schauen wir uns das Beispiel mit dem Spielzeugauto an und fügen eine Methode hinzu, die es sich bewegen lässt:",
+        
+        ""
+
+
+      ]
     }
   ]
