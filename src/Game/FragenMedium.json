@@ -45,6 +45,6 @@
         "bottom": ["}\n}"],
         "correct":
             "dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}dreheLinks();for(inti=0;i<6;i++){geheVorwärts();}dreheLinks();for(inti=0;i<2;i++){geheVorwärts();}dreheLinks();for(inti=0;i<2;i++){geheVorwärts();}dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}dreheLinks();for(inti=0;i<4;i++){geheVorwärts();}dreheLinks();for(inti=0;i<9;i++){geheVorwärts();}dreheLinks();for(inti=0;i<3;i++){geheVorwärts();}dreheLinks();for(inti=0;i<4;i++){geheVorwärts();}dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}festnehmen();}",
-        "img": "img"
+        "img": "/images/imgLabyrinth.png"
     }
 ]
