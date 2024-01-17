@@ -6,7 +6,28 @@
         "bottom": ["public static void main(String[] args){\nfliegeZu(ZielPlanet,x,y,z);\n}\n}"],
         "correct": "intx=112;inty=86;intz=63;StringZielPlanet='Slawpplanet';",
         "img": "img",
-        "hilfe": "",
+        "hilfe": [
+            "In dieser Mission musst du dein Programmiergeschick einsetzen, um wichtige Informationen zu speichern. In der Welt der Programmierung verwenden wir verschiedene Datentypen, um unterschiedliche Arten von Informationen zu repräsentieren. Für diese Aufgabe wirst du mit zwei grundlegenden Datentypen arbeiten: int (für Ganzzahlen) und String (für Zeichenketten).",
+        "\n\n",
+        "int (Ganzzahlen):",
+        "\n\n",
+        "Ganzzahlen werden in Java als 'int' bezeichnet. Du kannst diese verwenden, um numerische Werte ohne Dezimalstellen zu repräsentieren. Hier ist ein Beispiel, wie du eine Integer-Variable deklarierst und initialisierst:",
+        "\n\n",
+        "int myInteger = 42;",
+        "\n\n",
+        "In diesem Beispiel haben wir die Integer-Variable myInteger erstellt und mit dem Wert 42 initialisiert. Du kannst jedoch beliebige Ganzzahlen für deine Zwecke verwenden.",
+        "\n\n",
+        "String (Zeichenketten):",
+        "\n\n",
+        "Zeichenketten werden in Java als 'String' bezeichnet. Du kannst sie verwenden, um Textinformationen zu speichern. Hier ist ein Beispiel, wie du eine String-Variable deklarierst und initialisierst:",
+        "\n\n",
+        "String myString = 'Hallo, Abenteurer!';",
+        "\n\n",
+        "In diesem Beispiel haben wir die String-Variable myString erstellt und mit dem Text 'Hallo, Abenteurer!' initialisiert. Du kannst jedoch jeden gewünschten Text in Anführungszeichen setzen.",
+        "\n\n",
+        "Deine Aufgabe besteht darin, diese Grundlagen der Datentypen zu nutzen, um die Koordinaten in das System einzutragen und deine Mission erfolgreich fortzusetzen. Viel Erfolg bei der Nutzung von int und String!"
+
+        ],
         "hilfeIMG": ""
     },
     {
