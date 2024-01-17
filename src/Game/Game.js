@@ -6,8 +6,11 @@ import FragenEasyJson from "./FragenEasy.json";
 import StoryTextJson from "./Story.json";
 import FragenMediumJson from "./FragenMedium.json";
 import Game_Medium from "./Game_Medium";
+import { useNavigate } from "react-router-dom";
 
 export default function Game({ prolog, setProlog }) {
+  const navigate = useNavigate();
+
   const storyList = [
     "Story",
     "Frage Easy",
@@ -104,7 +107,7 @@ export default function Game({ prolog, setProlog }) {
     if (prolog) {
       setProlog(false);
     } else if (storyListIndex === storyLength - 1) {
-      alert("Spiel ist zu ende")
+      navigate("/")
     } else {
       if (storyList[storyListIndex] === "Story") {
         setStoryIndex(storyIndex + 1);

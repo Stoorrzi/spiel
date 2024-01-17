@@ -1,10 +1,11 @@
 import "./Start.css";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-export default function Start_Choose() {
+export default function Start_Choose({setProlog}) {
   const navigate = useNavigate();
 
   const newGame = () => {
+    setProlog(false)
     navigate("/game");
   };
   const loadSettings = () => {

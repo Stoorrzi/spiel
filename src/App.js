@@ -11,7 +11,7 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Start />} />
+        <Route path="/" element={<Start setProlog={setProlog} />} />
         <Route
           path="/game"
           element={<Game prolog={prolog} setProlog={setProlog} />}

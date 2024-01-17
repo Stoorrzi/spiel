@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import "./Game_Easy.css";
 import ImageComponent from "./ImageComponenet";
 
@@ -9,7 +8,7 @@ export default function Game_Story({
   weiter,
   back,
 }) {
-  
+
   return (
     <div>
       <ImageComponent src={storyIMG} />
