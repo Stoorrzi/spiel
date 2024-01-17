@@ -38,10 +38,18 @@ export default function Game_Easy({
           <div className="D18">
             <p className="P13">Information</p>
           </div>
-          <div className="D19">
-            <img className="IMG7" src={hilfeIMG} alt="HelpIMG" />
-            <p className="P14">{hilfe}</p>
-          </div>
+          
+            {hilfeIMG ? (
+              <div className="D19">
+              <img className="IMG7" src={hilfeIMG} alt="HelpIMG" />,
+              <p className="P14">{hilfe}</p>
+              </div>
+            ) : (
+              <div className="D19">
+              <p className="P141">{hilfe}</p>
+              </div>
+            )}
+          
         </div>
         <button
           onClick={() => {
@@ -53,6 +61,7 @@ export default function Game_Easy({
       </div>
     );
   }
+  
 
   return (
     <div className="D15">
