@@ -5,12 +5,12 @@
 
 },
 {
-    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "text": "",
     "img": "/images/H1.1.png"
 
 },
 {
-    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "text": "",
     "img": "/images/H1.2.png"
 
 },
@@ -30,12 +30,12 @@
 
 },
 {
-    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "text": "",
     "img": "/images/H2.1.png"
 
 },
 {
-    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "text": "",
     "img": "/images/H2.2.png"
 
 },
@@ -51,22 +51,22 @@
 
 },
 {
-    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "text": "",
     "img": "/images/H3.1.png"
 
 },
 {
-    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "text": "",
     "img": "/images/H3.2.png"
 
 },
 {
-    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "text": "",
     "img": "/images/H3.3.png"
 
 },
 {
-    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "text": "",
     "img": "/images/H3.4.png"
 
 },
@@ -96,12 +96,12 @@
 
 },
 {
-    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "text": "",
     "img": "/images/H4.1.png"
 
 },
 {
-    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
+    "text": "",
     "img": "/images/H4.2.png"
 
 },
@@ -118,6 +118,16 @@
     "img": "/images/Eingang.png"
 
 },
+{
+    "text": "",
+    "img": "/images/H5.1.png"
+
+},
+{
+    "text": "",
+    "img": "/images/H5.2.png"
+
+},
 
 
 
@@ -131,22 +141,22 @@
     "img": "/images/Thron.png"
 
 },
+{
+    "text": "",
+    "img": "/images/H6.1.png"
+
+},
+{
+    "text": "",
+    "img": "/images/H6.2.png"
+
+},
 
 
 
 {
     "text": "Herzlichen Glückwunsch Du hast Gargor gefangen genommen und die Bewohner des Slawpplaneten befreit Mit dem Gefangenen kehrst du als Sieger auf die Erde zurück",
     "img": "/images/Ende.png"
-
-},
-
-
-
-
-
-{
-    "text": "Du hast folgenden Zettel gefunden um die nachfolgende Aufgabe zu lößen:",
-    "img": "/images/H1.png"
 
 }
 ]
