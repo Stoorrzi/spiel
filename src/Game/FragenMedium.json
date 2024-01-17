@@ -35,7 +35,7 @@
         "Aufgabe": "Quiz: Du willst die Wachen mit der Hilfe eines Roboters ablenken, der Ausgibt “Eindringlinge!!! Auf dem Berg sind sie gelandet!”.",
         "top": ["public class Ablenkung{\npublic static void main(String[] args){"],
         "bottom": ["}\n}"],
-        "correct": "System.out.println(Eindringlinge!!! Auf dem Berg sind sie gelandet!);",
+        "correct": "System.out.println('Eindringlinge!!! Auf dem Berg sind sie gelandet!');",
         "img": "img"
     },
     {
