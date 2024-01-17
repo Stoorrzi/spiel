@@ -28,6 +28,7 @@ export default function Game({ prolog, setProlog }) {
     "Story",
     "Story",
     "Story",
+    "Story",
     "Frage Easy",
     "Story",
 
