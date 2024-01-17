@@ -23,6 +23,7 @@ export default function Game_Medium({
   function checkAnswer() {
     console.log(richtigeAntwortMedium);
     let answer = textInput.replace(/\s/g, '');
+    answer = answer.replace(/"/g, "'");
     console.log(answer)
     if (answer.localeCompare(richtigeAntwortMedium) === 0) {
       setAlertBox(true)
