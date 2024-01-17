@@ -16,7 +16,7 @@
         "\n\n",
         "Bleib konzentriert, Agent! Die Slawpbewohner zählen auf dich, um ihre Nachrichten zu entschlüsseln und die Geheimnisse des Slawpplaneten zu lüften."
         ],
-      "hilfeIMG": ""
+      "hilfeIMG": "/images/help3.png"
     },
     {
       "title": "Übersetze in Binärcode",
@@ -79,7 +79,23 @@
     {
       "title": "Wähle die richtige Antwort aus",
       "fragen": ["Welcher Code ist richtig, um die Rakete zu starten?"],
-      "antworten": ["iwlruie", "dfvsfue", "wfiliuiwd", "eflih"],
+      "antworten": [[
+        "class RaketeStarten {",
+        "\n\n",
+        "}"
+        ], [
+          "public class RaketeStarten (",
+        "\n\n",
+        ")"
+        ], [
+          "class public RaketeStarten {",
+        "\n\n",
+        "}"
+        ], [
+          "public class RaketeStarten {",
+        "\n\n",
+        "}"
+        ]],
       "correct": 4,
       "img": "",
       "hilfe":[
