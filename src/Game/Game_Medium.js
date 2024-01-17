@@ -44,10 +44,16 @@ export default function Game_Medium({
           <div className="D18">
             <p className="P13">Information</p>
           </div>
-          <div className="D19">
-            <img className="IMG7" src={hilfeIMG} alt="HelpIMG" />
-            <p className="P14">{hilfe}</p>
-          </div>
+          {hilfeIMG ? (
+              <div className="D19">
+              <img className="IMG7" src={hilfeIMG} alt="HelpIMG" />,
+              <p className="P14">{hilfe}</p>
+              </div>
+            ) : (
+              <div className="D19">
+              <p className="P141">{hilfe}</p>
+              </div>
+            )}
         </div>
         <button
           onClick={() => {
