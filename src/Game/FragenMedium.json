@@ -64,11 +64,11 @@
     },
     {
         "title": "Bearbeite den Code",
-        "Aufgabe": "Quiz: Programmiere einen Roboter mit den Methoden geheVorwärts(Anzahl Felder), dreheLinks(Grad), drehe rechtsGrad()\n\nKarte mit Feldern, durch die der Spieler weiß, wie der Roboter fahren muss und wie lang",
+        "Aufgabe": "Quiz: Programmiere einen Roboter mit den Methoden geheVorwärts(Anzahl Felder), dreheLinks(), dreheRechts()\n\nKarte mit Feldern, durch die der Spieler weiß, wie der Roboter fahren muss und wie lang",
         "top": ["public class FangeGargor{\npublic static void main(String[] args){"],
         "bottom": ["}\n}"],
         "correct":
-            "{for(inti=0;i<4;i++){geheVorwärts();}dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}dreheLinks();for(inti=0;i<6;i++){geheVorwärts();}dreheLinks();for(inti=0;i<2;i++){geheVorwärts();}dreheLinks();for(inti=0;i<2;i++){geheVorwärts();}dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}dreheLinks();for(inti=0;i<4;i++){geheVorwärts();}dreheLinks();for(inti=0;i<9;i++){geheVorwärts();}dreheLinks();for(inti=0;i<3;i++){geheVorwärts();}dreheLinks();for(inti=0;i<4;i++){geheVorwärts();}dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}festnehmen();}}",
+            "geheVorwärts(4);dreheRechts();geheVorwärts(3);dreheLinks();geheVorwärts(6);dreheLinks();geheVorwärts(2);dreheLinks();geheVorwärts(2);dreheRechts();geheVorwärts(3);dreheRechts();geheVorwärts(3);dreheLinks();geheVorwärts(4);dreheLinks();geheVorwärts(9);dreheLinks();geheVorwärts(3);dreheLinks();geheVorwärts(4);dreheRechts();geheVorwärts(2);",
         "img": "/images/imgLabyrinth.png",
         "hilfe": [
             "Methoden:",
