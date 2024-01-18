@@ -56,7 +56,7 @@ export default function Game_Easy({
             setFrageFeld(false);
           }}
         >
-          <img className="IMG6" src={"/images/back.svg"} alt="Fragezeichen" />
+          <img className="IMG6" src={"/images/back.svg"} alt="Zurück" />
         </button>
       </div>
     );

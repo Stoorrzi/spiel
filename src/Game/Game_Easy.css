@@ -191,6 +191,31 @@
 
 .IMG41 {
     width: 3rem;
+    animation-name: pulse;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1.0);
+    }
+
+    25% {
+        transform: scale(1.4);
+    }
+
+    50% {
+        transform: scale(1.0);
+    }
+
+    75% {
+        transform: scale(1.0);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
 }
 
 .D17 {
