@@ -38,36 +38,6 @@
         "correct": "System.out.println('Eindringlinge!!!AufdemBergsindsiegelandet!');",
         "img": "",
         "hilfe": [
-            "In dieser Mission musst du dein Programmiergeschick einsetzen, um wichtige Informationen zu speichern. In der Welt der Programmierung verwenden wir verschiedene Datentypen, um unterschiedliche Arten von Informationen zu repräsentieren. Für diese Aufgabe wirst du mit zwei grundlegenden Datentypen arbeiten: int (für Ganzzahlen) und String (für Zeichenketten).",
-            "\n\n",
-            "int (Ganzzahlen):",
-            "\n\n",
-            "Ganzzahlen werden in Java als 'int' bezeichnet. Du kannst diese verwenden, um numerische Werte ohne Dezimalstellen zu repräsentieren. Hier ist ein Beispiel, wie du eine Integer-Variable deklarierst und initialisierst:",
-            "\n\n",
-            "int myInteger = 42;",
-            "\n\n",
-            "In diesem Beispiel haben wir die Integer-Variable myInteger erstellt und mit dem Wert 42 initialisiert. Du kannst jedoch beliebige Ganzzahlen für deine Zwecke verwenden",
-            "\n\n",
-            "String (Zeichenketten):",
-            "\n\n",
-            "Zeichenketten werden in Java als 'String' bezeichnet. Du kannst sie verwenden, um Textinformationen zu speichern. Hier ist ein Beispiel, wie du eine String-Variable deklarierst und initialisierst",
-            "\n\n",
-            "String myString = 'Hallo, Abenteurer!'",
-            "\n\n",
-            "In diesem Beispiel haben wir die String-Variable myString erstellt und mit dem Text 'Hallo, Abenteurer!' initialisiert. Du kannst jedoch jeden gewünschten Text in Anführungszeichen setzen.",
-            "\n\n",
-            "Deine Aufgabe besteht darin, diese Grundlagen der Datentypen zu nutzen, um die Koordinaten in das System einzutragen und deine Mission erfolgreich fortzusetzen. Viel Erfolg bei der Nutzung von int und String!"
-        ]
-    },
-    {
-        "title": "Bearbeite den Code",
-        "Aufgabe": "Quiz: Programmiere einen Roboter mit den Methoden geheVorwärts(Anzahl Felder), dreheLinks(Grad), drehe rechtsGrad()\n\nKarte mit Feldern, durch die der Spieler weiß, wie der Roboter fahren muss und wie lang",
-        "top": ["public class FangeGargor{\npublic static void main(String[] args){"],
-        "bottom": ["}\n}"],
-        "correct":
-            "dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}dreheLinks();for(inti=0;i<6;i++){geheVorwärts();}dreheLinks();for(inti=0;i<2;i++){geheVorwärts();}dreheLinks();for(inti=0;i<2;i++){geheVorwärts();}dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}dreheLinks();for(inti=0;i<4;i++){geheVorwärts();}dreheLinks();for(inti=0;i<9;i++){geheVorwärts();}dreheLinks();for(inti=0;i<3;i++){geheVorwärts();}dreheLinks();for(inti=0;i<4;i++){geheVorwärts();}dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}festnehmen();}",
-        "img": "/images/imgLabyrinth.png",
-        "hilfe": [
             "In Java wird die Konsolenausgabe mit dem Befehl System.out.println() durchgeführt. Hier ist eine kurze Erklärung der Syntax:",
             "\n\n",
             "System.out: Dies ist ein Objekt, das die Standardausgabe repräsentiert. Die out-Eigenschaft steht für den Ausgabestrom.",
@@ -90,6 +60,40 @@
             "\n\n",
             "In diesem Beispiel wird 'Hallo, dies ist eine Konsolenausgabe in Java!' auf der Konsole ausgegeben."
 
+        ]
+    },
+    {
+        "title": "Bearbeite den Code",
+        "Aufgabe": "Quiz: Programmiere einen Roboter mit den Methoden geheVorwärts(Anzahl Felder), dreheLinks(Grad), drehe rechtsGrad()\n\nKarte mit Feldern, durch die der Spieler weiß, wie der Roboter fahren muss und wie lang",
+        "top": ["public class FangeGargor{\npublic static void main(String[] args){"],
+        "bottom": ["}\n}"],
+        "correct":
+            "dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}dreheLinks();for(inti=0;i<6;i++){geheVorwärts();}dreheLinks();for(inti=0;i<2;i++){geheVorwärts();}dreheLinks();for(inti=0;i<2;i++){geheVorwärts();}dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}dreheLinks();for(inti=0;i<4;i++){geheVorwärts();}dreheLinks();for(inti=0;i<9;i++){geheVorwärts();}dreheLinks();for(inti=0;i<3;i++){geheVorwärts();}dreheLinks();for(inti=0;i<4;i++){geheVorwärts();}dreheRechts();for(inti=0;i<3;i++){geheVorwärts();}festnehmen();}",
+        "img": "/images/imgLabyrinth.png",
+        "hilfe": [
+            "Methoden:",
+            "\n\n",
+            "In der Programmierung ist eine Methode eine benannte Gruppe von Anweisungen oder Code, die eine bestimmte Aufgabe oder Funktion ausführt.",
+            "\n",
+            "Methoden werden verwendet, um Code zu strukturieren und zu organisieren, indem sie logische Abschnitte in einem Programm definieren.",
+            "\n",
+            "Eine Methode kann Rückgabewerte haben (Daten, die sie zurückgibt) oder auch keine.",
+            "\n\n",
+            "Übergabeparameter:",
+            "\n\n",
+            "Übergabeparameter sind Werte, die an eine Methode übergeben werden, wenn sie aufgerufen wird.",
+            "\n",
+            "Diese Parameter ermöglichen es, Daten von einem Teil des Programms an die Methode zu übergeben, damit sie damit arbeiten kann.",
+            "\n",
+            "Parameter machen Methoden flexibler und wiederverwendbar, da sie unterschiedliche Werte akzeptieren können.",
+            "\n\n",
+            "Methodenaufrufe mit Übergabeparametern:",
+            "\n\n",
+            "Um eine Methode aufzurufen und ihr bestimmte Werte zu übergeben, verwendet man Methodenaufrufe mit Übergabeparametern.",
+            "\n",
+            "Ein Methodenaufruf enthält den Namen der Methode gefolgt von Klammern, in denen die Werte für die Übergabeparameter stehen.",
+            "\n",
+            "Beispiel: meineMethode(parameter1, parameter2);"
         ]
     }
 ]
