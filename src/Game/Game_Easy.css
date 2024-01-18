@@ -170,7 +170,12 @@
     border: none;
     font-weight: 600;
     white-space: pre-line;
-    
+    transition: transform .2s ease-in-out;
+}
+
+.B12:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .H12 {
